@@ -13,11 +13,11 @@
  */
 // Type the code below this line...
 var x: Int?
-var y: Int? = 1
+var y: Int? = 0
 if x == y {
     print("variables are equal")
 } else {
-    print("variables not equal")
+    print("variables NOT equal")
 }
 /*:
  
