@@ -19,7 +19,12 @@
  
  */
 // Type the code below this line...
-
+var dayOfWeek: String? = "Monday"
+if dayOfWeek == nil {
+    print("No day was provided")
+} else {
+    print("The day is \(dayOfWeek)")
+}
 
 /*:
  
